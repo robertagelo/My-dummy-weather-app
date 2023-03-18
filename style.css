@@ -1,18 +1,23 @@
 body {
   background-image: url(media/bg.png);
   font-family: "Tilt Warp", cursive;
-  padding: 50px 300px;
-  width: 100%;
+  padding: 30px;
 }
 
-header {
+footer {
   margin: 8px 0;
-  font-size: 15px;
+  font-size: 12px;
+  color: #fff8ed;
 }
 
-header a {
+footer a {
   text-decoration: none;
-  color: #24669c;
+  color: #c2e0f9;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  transition: all 300ms ease-in-out;
 }
 
 h1 {
@@ -44,18 +49,19 @@ form {
   display: flex;
 }
 
-.search-text {
-  width: 100%;
-  padding: 5px;
-  border: 1px solid white;
-  border-radius: 5px;
-}
-
 .app {
   background-image: url(media/app-bg.jpg);
   box-shadow: 6px 9px 14px 2px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   transition: all 300ms ease-in-out;
+  width: 80%;
+}
+
+.search-text {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
 .search-button,
