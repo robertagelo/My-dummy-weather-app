@@ -5,11 +5,14 @@ body {
   width: 100%;
 }
 
-.container {
-  background-image: url(media/app-bg.jpg);
-  box-shadow: 6px 9px 14px 2px rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  transition: all 300ms ease-in-out;
+header {
+  margin: 8px 0;
+  font-size: 15px;
+}
+
+header a {
+  text-decoration: none;
+  color: #24669c;
 }
 
 h1 {
@@ -34,7 +37,7 @@ h3 {
 }
 
 h4 {
-  font-size: 30px;+
+  font-size: 30px;
 }
 
 .search-text {
@@ -42,6 +45,13 @@ h4 {
   padding: 5px;
   border: 1px solid white;
   border-radius: 5px;
+}
+
+.app {
+  background-image: url(media/app-bg.jpg);
+  box-shadow: 6px 9px 14px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  transition: all 300ms ease-in-out;
 }
 
 .search-button,
@@ -57,7 +67,7 @@ h4 {
 }
 
 .search-button:hover,
-.geolocation-button:hover  {
+.geolocation-button:hover {
   background-color: #b6dde7;
 }
 
@@ -66,8 +76,8 @@ h4 {
 }
 
 .weather-icon {
--webkit-filter: drop-shadow(0px 0px 20px #fff);
-filter: drop-shadow(0px 0px 20px #fff);
+  -webkit-filter: drop-shadow(0px 0px 20px #fff);
+  filter: drop-shadow(0px 0px 20px #fff);
 }
 
 .col {
